@@ -17,8 +17,8 @@ This is [the repository](https://github.com/johndoe/johndoe-website) of John Doe
 
 Design assets:
 
-- Figma File: https://figma.com/...
-- Figma Prototype: https://figma.com/...
+- Figma File: https://www.figma.com/file/11zibPLIXRgQL4P4sJN05M/jonathannicolas.dev?node-id=1%3A4
+- Figma Prototype: https://www.figma.com/proto/11zibPLIXRgQL4P4sJN05M/jonathannicolas.dev?node-id=1%3A4&scaling=min-zoom
 
 ## Sitemap
 
