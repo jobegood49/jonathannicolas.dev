@@ -1,9 +1,12 @@
-import React from "react"
+import React from "react";
+import Navigation from "./components/Navigation";
 
 const App = () => {
-    return (
-        <div>Hello jonathannicolas.dev</div>
-    )
-}
+  return (
+    <div>
+      <Navigation></Navigation>
+    </div>
+  );
+};
 
-export default App
+export default App;
