@@ -1,11 +1,23 @@
 import React from "react";
+import styled from "styled-components";
+
 import Navigation from "./components/Navigation";
+import Hero from "./components/Hero";
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+`;
 
 const App = () => {
   return (
-    <div>
+    <Container>
       <Navigation></Navigation>
-    </div>
+      <Hero></Hero>
+    </Container>
   );
 };
 
