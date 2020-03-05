@@ -5,8 +5,12 @@ const Nav = styled.nav`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   & h1 {
     font-size: 2rem;
+  }
+  & > * {
+    margin: 20px;
   }
 `;
 
