@@ -5,6 +5,9 @@ const Nav = styled.nav`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  & h1 {
+    font-size: 2rem;
+  }
 `;
 
 const NavList = styled.ul`
@@ -14,6 +17,11 @@ const NavList = styled.ul`
 
 const NavListItem = styled.li`
   margin: 10px;
+  & a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+  }
 `;
 
 const Navigation = () => {
