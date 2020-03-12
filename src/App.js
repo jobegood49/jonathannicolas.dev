@@ -1,16 +1,17 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-import Navigation from "./components/Navigation";
-import Hero from "./components/Hero";
-import Bio from "./components/Bio";
+import Navigation from './components/Navigation'
+import Hero from './components/Hero'
+import Bio from './components/Bio'
 
 const Container = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-`;
+`
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
       <Hero></Hero>
       <Bio></Bio>
     </Container>
-  );
-};
+  )
+}
 
-export default App;
+export default App
