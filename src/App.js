@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
+import Bio from "./components/Bio";
 
 const Container = styled.div`
   display: flex;
@@ -16,6 +17,7 @@ const App = () => {
     <Container>
       <Navigation></Navigation>
       <Hero></Hero>
+      <Bio></Bio>
     </Container>
   );
 };

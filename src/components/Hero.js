@@ -56,7 +56,7 @@ const Hero = () => {
             <button>Check My Projects</button>
           </div>
         </HeroIntro>
-        <img src="/images/hero-image.svg" alt="Hero Image" />
+        <img src="/images/hero-image.svg" alt="Hero" />
       </HeroSubContainer>
     </HeroContainer>
   );
